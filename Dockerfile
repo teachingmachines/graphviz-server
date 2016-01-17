@@ -16,7 +16,7 @@ RUN apt-get -y update && apt-get install -y \
 RUN git clone https://github.com/teachingmachines/graphviz-server.git /opt/graphviz-server
 
 # Expose port 8080 to the host
-#EXPOSE 8080
+EXPOSE 8080
 
 # Set the current work directory
 WORKDIR /opt/graphviz-server
