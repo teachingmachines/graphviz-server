@@ -2,7 +2,7 @@
 
 FROM ubuntu
 
-MAINTAINER Omer Dawelbeit "omer.dawelbeit@gmail.com"
+MAINTAINER Marcin Mejran "marcin@teachingmachines.io"
 
 # Update aptitude with new repo
 # Install other software
@@ -13,7 +13,7 @@ RUN apt-get -y update && apt-get install -y \
 	git
 
 # Clone the graphviz-server github repo
-RUN git clone https://github.com/omerio/graphviz-server.git /opt/graphviz-server
+RUN git clone https://github.com/teachingmachines/graphviz-server.git /opt/graphviz-server
 
 # Expose port 8080 to the host
 #EXPOSE 8080
