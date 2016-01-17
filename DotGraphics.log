@@ -439,3 +439,24 @@ rankdir=LR
 "END" [style="filled", fillcolor="gray", shape="doublecircle"];
 }
 01/11/2013 11:20:55 [ INFO] HttpDotGraphMessageHandler - Responded with Success
+07/01/2016 02:31:27 [ INFO] DotGraphics$RequestListenerThread - Listening on port 8080
+07/01/2016 02:31:42 [ INFO] DotGraphics$RequestListenerThread - Incoming connection from /0:0:0:0:0:0:0:1
+07/01/2016 02:31:42 [ INFO] DotGraphics$RequestListenerThread - Incoming connection from /0:0:0:0:0:0:0:1
+07/01/2016 02:31:42 [ INFO] DotGraphics$WorkerThread - New connection thread
+07/01/2016 02:31:42 [ INFO] DotGraphics$WorkerThread - New connection thread
+07/01/2016 02:31:42 [ INFO] HttpDotGraphMessageHandler - GET / [Host: localhost:8080, Connection: keep-alive, Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8, Upgrade-Insecure-Requests: 1, User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36, Accept-Encoding: gzip, deflate, sdch, Accept-Language: en-US,en;q=0.8]
+07/01/2016 02:31:42 [ INFO] HttpDotGraphMessageHandler - Responded with Success
+07/01/2016 02:31:43 [ INFO] HttpDotGraphMessageHandler - GET /favicon.ico [Host: localhost:8080, Connection: keep-alive, User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36, Accept: */*, Referer: http://localhost:8080/, Accept-Encoding: gzip, deflate, sdch, Accept-Language: en-US,en;q=0.8]
+07/01/2016 02:31:43 [ INFO] HttpDotGraphMessageHandler - Responded with Success
+07/01/2016 02:31:58 [ INFO] DotGraphics$RequestListenerThread - Incoming connection from /0:0:0:0:0:0:0:1
+07/01/2016 02:31:58 [ INFO] DotGraphics$RequestListenerThread - Incoming connection from /0:0:0:0:0:0:0:1
+07/01/2016 02:31:58 [ INFO] DotGraphics$WorkerThread - New connection thread
+07/01/2016 02:31:58 [ INFO] DotGraphics$RequestListenerThread - Incoming connection from /0:0:0:0:0:0:0:1
+07/01/2016 02:31:58 [ INFO] DotGraphics$WorkerThread - New connection thread
+07/01/2016 02:31:58 [ INFO] DotGraphics$RequestListenerThread - Incoming connection from /0:0:0:0:0:0:0:1
+07/01/2016 02:31:58 [ INFO] DotGraphics$WorkerThread - New connection thread
+07/01/2016 02:31:58 [ INFO] DotGraphics$WorkerThread - New connection thread
+07/01/2016 02:31:58 [ INFO] HttpDotGraphMessageHandler - GET /?aaa [Host: localhost:8080, Connection: keep-alive, Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8, Upgrade-Insecure-Requests: 1, User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36, Accept-Encoding: gzip, deflate, sdch, Accept-Language: en-US,en;q=0.8]
+07/01/2016 02:31:58 [ INFO] HttpDotGraphMessageHandler - Responded with Success
+07/01/2016 02:31:58 [ INFO] HttpDotGraphMessageHandler - GET /favicon.ico [Host: localhost:8080, Connection: keep-alive, User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36, Accept: */*, Referer: http://localhost:8080/?aaa, Accept-Encoding: gzip, deflate, sdch, Accept-Language: en-US,en;q=0.8]
+07/01/2016 02:31:58 [ INFO] HttpDotGraphMessageHandler - Responded with Success
