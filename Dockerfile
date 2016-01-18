@@ -16,7 +16,7 @@ RUN apt-get -y update && apt-get install -y \
 RUN git clone https://github.com/teachingmachines/graphviz-server.git /opt/graphviz-server
 
 # Expose port 8080 to the host
-EXPOSE 8080
+EXPOSE 80
 
 # Set the current work directory
 WORKDIR /opt/graphviz-server
@@ -25,4 +25,4 @@ WORKDIR /opt/graphviz-server
 #RUN mvn package
 
 # Run graphviz-server
-ENTRYPOINT ["java", "-jar", "/opt/graphviz-server/dist/DotGraphics.jar"] 
+ENTRYPOINT ["java", "-jar", "/opt/graphviz-server/dist/DotGraphics.jar","80"]
